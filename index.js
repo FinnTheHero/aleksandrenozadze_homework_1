@@ -1,5 +1,5 @@
 import ascii from "ascii-art";
-import fs from "fs";
+const fs = require("fs");
 
 ascii.font("Hello NodeJS!", "Doom", (err, rendered) => {
     if (err) {
